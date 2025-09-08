@@ -1,0 +1,2 @@
+"use strict";var menuToggle=document.querySelectorAll(".header__menu-toggle"),navItems=document.querySelectorAll(".nav__items"),body=document.querySelector("body");menuToggle.forEach(function(e){e.addEventListener("click",function(){body.classList.contains("_menu-open")?body.classList.remove("_menu-open"):body.classList.add("_menu-open")})}),navItems.forEach(function(e){e.addEventListener("click",function(){body.classList.remove("_menu-open")})});
+//# sourceMappingURL=Landing.008dcf53.js.map
